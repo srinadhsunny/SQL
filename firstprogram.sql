@@ -1,5 +1,7 @@
 -- // creating first database
 create database college;
+-- creating db if it not existed
+create database if not exist college;
 -- syntax to use the created DB
 use college;
 -- creating table
